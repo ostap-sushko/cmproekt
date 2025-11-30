@@ -41,4 +41,19 @@ button {
   color: inherit;
   background-color: transparent;
   cursor: pointer;
+}
+
+.container {
+  width: 1265px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: "Montserrat";
+}
+
+html {
+  scroll-behavior: smooth;
 }/*# sourceMappingURL=main.css.map */

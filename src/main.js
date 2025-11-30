@@ -1,0 +1,15 @@
+import "./js/header";
+import "./js/popular-games";
+import "./js/years";
+import "./js/guessnumber";
+import "./js/papers";
+import "./js/calculator";
+import "./js/calculatetime";
+import "./js/googledino";
+import "./js/football";
+import "./js/threenumber";
+import "./js/ourteam";
+import "./js/choose";
+import "./js/footer";
+import "./js/modal-header";
+import "./js/modal-footer";

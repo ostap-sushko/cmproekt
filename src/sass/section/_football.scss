@@ -1,1 +1,27 @@
 @use "../bais/variable" as *;
+   .football{
+    padding-bottom: 36px;
+    padding-top: 36px;
+
+
+    &__title{
+    color: $main-color;
+    font-size: 16px;
+    margin-bottom: 36px;
+         display: flex;
+    justify-content: center;
+}
+
+
+&__box{
+        width: 720px;
+    
+    height: 220px;
+    background-color: $football-color;
+    border-radius: 37px;
+    outline: 3px solid $main-color ;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; /* щоб по центру */
+}
+}

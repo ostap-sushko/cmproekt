@@ -1,1 +1,29 @@
-@use "../bais/variable" as *;
+@use '../bais/variable' as *;
+
+.populargames {
+  padding-bottom: 36px;
+  padding-top: 36px;
+}
+
+.populargames__title {
+  color: $main-color;
+  width: 386px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.populargames__line {
+  margin-top: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 536px;
+  height: 1px;
+  stroke-width: 1px;
+  background-color: $main-color;
+  display: flex;
+  justify-content: center;
+}

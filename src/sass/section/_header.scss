@@ -1,1 +1,85 @@
-@use "../bais/variable" as *;
+@use '../bais/variable' as *;
+
+.header {
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+
+.header .container {
+  display: flex;
+  gap: 361px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__mainbox {
+  display: flex;
+}
+
+.header__logo {
+  margin-right: 81px;
+  display: flex;
+  gap: 9px;
+}
+
+.header__logoimg {
+  width: 40px;
+  height: 38px;
+}
+
+.header__textcoding {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  color: $main-color;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header__textmagic {
+  color: $main-color;
+  font-family: Sacramento;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+}
+
+.header__items {
+  display: flex;
+  gap: 50px;
+}
+
+.header__link {
+  color: $main-color;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header__informationbox {
+  display: flex;
+  gap: 51px;
+}
+
+.header__sliderimg {
+  width: 40px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.header__greetings {
+  color: $main-color;
+  text-align: right;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

@@ -10,8 +10,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap" rel="stylesheet">
     
-    <script type="module" crossorigin src="/cmproekt/assets/index-3fd71709.js"></script>
-    <link rel="stylesheet" href="/cmproekt/assets/index-d087dda8.css">
+    <script type="module" crossorigin src="/cmproekt/assets/index-adfdc155.js"></script>
+    <link rel="stylesheet" href="/cmproekt/assets/index-6b4b5409.css">
   </head>
   <body>
   
@@ -27,10 +27,13 @@
             <nav class="header__list">
                 <ul class="header__items">
                     <li class="header__item">
-                        <a href="#" class="header__link">Інтерактив</a>
-                        <!-- <svg class="header__linkicon">
-                           <use href=""></use>
-                        </svg> -->
+                        <a href="#" class="header__link">Інтерактив
+                            <svg class="header__imagearrow" width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.375 0.375L4.875 5.375L0.375 0.375" stroke="black" stroke-width="0.75"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
                     </li>
                     <li class="header__item">
                         <a href="#ourteam" class="header__link">Наша команда</a>
@@ -106,33 +109,30 @@
     
     <div class="modal-header">
     <button type="button" class="modal-header__close">
-        <!-- <svg class="modal-header__iconclose">
-            <use href=""></use>
-        </svg> -->
+        <img class="modal-header__iconclose" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAB/SURBVHgBnZLBDYAgDEUbXcARHAEncRU3cCTn8eTVm45gSWoCAdp+SH4gJO8F2o5EdHBOzk3Y2jlLPATOJTsCR2b+LxBJASOSJuyRmLAmccM1CQynkseCB0Wwcl45TwSu9NnwnNT+7JZoBTMlnmo3JUirCklPnzPJRh1DInD4AF2uKF/+4EilAAAAAElFTkSuQmCC" alt="closebutton">
     </button>
-    <h2 class="modal-header__title">Привіт!
-        Ви потрапили на сайт інтерактивних ігор та завдань
-        Надіємось, що вам сподобається і ви отримаєте позитивні емоції!
-        Бажаємо Вам гарно провести час!
-    </h2>
+    <div class="modal-header__titlebox">
+        <h2 class="modal-header__title">Привіт!</h2>
+        <h2 class="modal-header__title">
+            Ви потрапили на сайт інтерактивних ігор та завдань
+        </h2>
+        <h2 class="modal-header__title">
+            Надіємось, що вам сподобається і ви отримаєте позитивні емоції!
+        </h2>
+        <h2 class="modal-header__title">
+            Бажаємо Вам гарно провести час!
+        </h2>
+    </div>
     <form class="modal-header__form">
         <label for="name" class="modal-header__information">Введіть своє ім’я:</label>
-        <input type="text" id="name" placeholder="Ваше ім'я..." class="modal-header__input">
+        <input type="text" id="name" placeholder="Ваше ім'я..." class="modal-header__input" required>
         <button type="submit" class="modal-header__submit">Зберегти</button>
     </form>
     <div class="modal-header__svggroup">
-        <!-- <svg class="modal-header__backgroundicon">
-            <use href=""></use>
-        </svg> -->
-        <!-- <svg class="modal-header__backgroundicon">
-            <use href=""></use>
-        </svg> -->
-        <!-- <svg class="modal-header__backgroundicon">
-            <use href=""></use>
-        </svg> -->
-        <!-- <svg class="modal-header__backgroundicon">
-            <use href=""></use>
-        </svg> -->
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKFSURBVHgB7ZnPahRBEMa/TeLFg0dBD4qgxIcIXvSiB4nEk68hguLJBxD/IagnRYMnQQTzDslTJIckh+SSkEP+J12kPqqn6dnZSXZmutn9oOjdTXdP/aiqnu4OMNZYraiHeppAIoo58sbZlrPNCttx9gAJwYTadnbs7MTZgbYxO9T2IRKF2YA5e+TssrNpZ7c9u+7sJwzmERKEERA6uKefRZNeH9bSLyQcGUbkCs5SqwyGTvswSUWGIHf1e12YZCJDkDswp8XJ7CLjg4imtK0L03lkQhBRljAEuYnim54w2SwAO+rEb/2eJYw87D7srT6vv8dgkk+zCX3oyMFkkWYjGZmRTjMfhu21yPxDU9M1wz7/9LdPkfmHpiZhZpz9hR3k5GD3OTL/0DTsmpmHwexr+xx2qEsGpl9k2GcZFokZnX8WFpnXaFAXhWFE/uvfCDGlczyFgbxEw7pImokEgunkQzyDpdaHyJyN6DwwctX0AwlBUHVg5KrpSK0fxNvIHK2oCoY18R3FJTeE4H3aLRh86yqDoUOD1MSqs13Y5UdyMAuohuDbfBGJwqygGuKjjr2kbTIw8uB7KN4RV0H0vLGizmFY2H9QfGP3S6dwdUoGRnax/dJJVqdV7VvmXOcwV2HOvsDZliSMxIk6t4Si06E6hRGn38EcfuJsDgbx3tkNGMxi4HSozmBYI5L/hAkLW5yYRv3ILMFgZPwkGhZhxPFjtdjqVAeGS/Oa9j9ESyLMK9hWPLY6DQLDcV9hUZ5Fi5cXvZLPvkKYsGY47gsMYg4dbCgHUVlkmE5ZQFBlMN+QEQQVwqzDtjhy/M0CgvJheJ7PJhKhBEb+YybL9mNkCkGFV6ljZaVTwQmEKlfdnIIAAAAASUVORK5CYII=" alt="" class="modal-header__backgroundicon">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAaTSURBVHgB7VlrTBRXFL4LCyIvQSiPCkokRaExIKDW+kqDkNjgA9DUVtqIYGu0hMQ0StRUjKhAIaTyQ4MSTNSI2kJCGiBgiylNKSSaUKCGQgMhlLYIhQZ2kcLu9jvTGVy2u7MDzsCm8Usm987OmTP33HvPd865y9gCwmAwqKk9fvz420FBQY1ubm5P3d3df42Oji4rLS0N4mVUzJaBATpQ6+DgMEi3uPRLlizpcXV17efvDYGBgSW8rG0aYzSwv1QqlWHVqlXZxs9bWlpcYNTP9CwsLOwS5O2YLYIM2bJlSzp1saVO0L3xrKNvT62Tk9MfdFtSUuJms6sCf/gdjY765gZJxhQUFIRQd/fu3ZnMhqFfsWJFo5gAv6UMISEhtcwKFNt7EraCXqfTGayp4dtJK3JMzRSAMJN79+5NcXFx0Zh5/ue9e/dG+vr61ovoUB09enQj9b28vH5LTk5OsgdM5aamptRr1qxpYUph06ZNn6nVappJg9h16NChtyzp8PT0fAzm0ou9T8xGrSIrQvDx8dHSbBUWFkb5+/uPm5MZGhpix44de2LuGTk7Bhl5/fr1tYgtz8zJgNXG0tLSvhwcHFzHlEJiYmIWjae8vNyLKQg/P79v6Tu2GWjmgJeG2BokG2Iu3zFNLRYSVg0RBnvjxg138PV9Z2fnYbCJ1sPDozs2NvYToj8hNzIHMNdoZ2fnIsQNe16f3VyNN/4O+os4A+zsNFJe5IwIDQ1NZTxvOzo6Dnt7e/9CYxR+45O6GVSekJBwDnFkCpdGkKMkcOvWre/xumdF/WQEfQdJ5gP2b6TndKIMeMaeZwCWX46Pj4+jWSfLz54962P8PDw8PEFQyBs9vcLIbs/R74sXLx6AXBnypa8FWaxmq6CfSTNCvWfPno3C+8gWeiIjI8tg1HfseXC0rkcQNJ1Fuk9KSnqTuqgpKoUtI7RnzpwJNVUWEBBwnyYG/P8Nk2aEfU1NzVJhHNnZ2YHGz+vr69UImktFlZw+ffoNennnzp3vi80ezRDjU3Irg+JWDFvzEd1euHDBn0kAMoPHJH/t2rUAqas4A6gDTpECOKqfmFxMTEwOyaHO9mBWQAO5cuUKbVED/OVzCfK0ulT2NovJibIWyk0ux0FOpLfENPQ7HJp7BlLQMyuDAnRHjhx5SvddXV2RzApqa2tfoRY+8ZWYnPrq1ath7e3ta+HMU6YPBwYGuPbu3bsp+HieOQW030HJB9DVlZWVrc/IyDCbW2EynCFbym8vznCcmIz19/czMYwD1A4PD7/KT4RFx55OhZnlNHnc0sv5+fne1nTQhVJCv23btlx6BwwUT7/t27fvHSkxBe9qcY1yg7Ugz+0/X1/fptzc3AMajcbRVGByctJh5cqVXXD4vzHY/6wa7fni4uIgClDGFR/NPOqJ8dHRUafe3l6nixcvPkJGfAp6ClNSUsaNvi8KGviGDRtONDc354DxilGMfUS6qU4xXSEDWKGeyYyioqLV8LFOMFNEQ0ODJ30HmUEV41fo8OHD66QwkLACCKY9PG3/gCwjmM7Fqqqq3KOiovKDg4PLBUMeMpmxY8eOGRUiIrDQnzx48GDEbGhUiF84rKhj810hIqJrqELcv39/WkdHRwxSm1H4yBd5eXl1oGmq/nRMImhL89sp9ubNm/4o1lK6u7sj4BJtTU1NiSMjI+Ekp8iKCBViRUWF1dgyG5g6O8Y+PxXinCKxCEzpF/q5VnZDhIwZcWmIzSNk9RFyStrPu3btSq6urr7E5hGyGcIf30zh6OZJZWXlauF3xBLJTj1HcPplM4RYaPny5Q8Q/FaDJks3b97cePv27eLMzMwC9CXVC7MFmHAcrDU9aS/MWuQTd+7cCaLusmXLvqff4uLiPmRM/JRRrouKPllWhJgER6QZ1L98+XISqJd8pRhb7BZqD0VWQwBOGVXwSS31ZYkjKDsfMoklpxKQjX7xx80YtW1tbY5sASCLIeQjERERt6iflZUVL3cQlDwOOZxd6NKFrHQRGWN0GGFnIqcIZPERCoZIEKMZb8z27ds/wAmHK221nJyccBxQ9J4/f/41piBkSxppFdLT09cy8xWiDmdkuUwhyJqiUFCEMT+iqFKlpqbGtLa2vosK0wWMVocsuIRSe6YgFEnjjQGfoZMQqtE/ZQrh5f8jtob/lyFIuhRNtScmJqz+4f+i4FgLidfrOKopAuM4MwVw8uRJbsLAaortADWOOwe0Wq0vqPJjpjBAvz8xhfAPE9tfCWY83lkAAAAASUVORK5CYII=" alt="" class="modal-header__backgroundicon">
+        <img src="./img/game-icon.png" alt="" class="modal-header__backgroundicon">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAQTSURBVHgB3VpLbIxRFP5mUI8qEiHxJpoQOxKvIKliI7FA2Fl2L/HasvGI2FphQ8QrVEoXEkKkxIawsKEhHgsiRLRNH9pxvp57+l9/p/PPZP5xZ3zJ1/+/979z55z/nHPvuacDKMYJ64VXhV3CXJWTMl4RTnayjyixzg0YqGLh4xxy17XUISN/pgi73YOMY5rIVWBOm5cyD3vTePlzwXXAfeFBYatwAsoDzX9R2OTaD4QtwjqUB3rNTuFpYVY4KDxvX2jmOoB03167N/cdpAPzmsPe3F3UqN4bdAvVDxP+ptdXn40NqnOD8iFbYn+lUVeqEGbK6cLrwp9QP6VLPhIuK2GuiiHpy6kALXRI+B0aZNOEXCTokpuEr6FmthUkCIpR5IjwJFShscbvEN6DriBBkE14NgOqBPEbqthR4RroUppx/bTQNuEGBHQxf7dcHnt2A/qWbRdtQLQ8m8C9UGU47mPs85VYfg0rvLlzSW+vGSowhT8m7EG0qllMbHVXjpuPQHGSpEiDd38XUQZgoBVexvomIQCSFOn17ldi9K7Pzy+K9fUhAJIUeQa1AnnWXc3Vsq7d7o35Ao2Xf45CilDYFjeGtDR/vXAqdGH4LJyDSLn9qEymWxQKrVoU6hr0Lee8q3EQkYKdeeaumlWLiuyFbnbWjoMT0TJLoftJECQpYjGxHZqOvIs9/yHcJ1wMVSJIfADFvUFbcjuEjVCr8FTZD3Upi49gShCluELOu3Z7/UOoAsRdqx/pon+M+zTQ5TcsTTc8hKYhaYCCM4mc5dpfhU9Q/pndQPduskZckVrDSIUmG+usWcQtch/puhaX7NmuTdd6jPRciyfUZr/D36kXIF20In/VIw00osDOXo90UTfGfdpzh618pInQimTGuM/XLohqsMgWaL2Zvm6ZxjjXPg6tmxWVgRRK48tFUhq/GdHx4K3rs6My8zgreszM89mS0vhKYxWiIgaPzO+hx+t4/rYwaaKQijAGzkCFt9rYPEQWsmoMy7QvkiYLqYjFBA9knxApQ0xwz7kP8WCXKGdo16LwjIklGB3QzDB2QfeLxKNCaEUovMVE/GBGBXki7UcRq1ZIRfjdVmolbcntQeRmrFy+QRGnz5CK0ArcJyi8BfZtaJrkxwxjaGPSZKFXrXNQJXjPgjn//zIRGjOd3riOpMmClW+glvgAPUHOFb6Cvtg+Jxc3ZxYDn0OVLeheIRUhKNw3R2LI6yeeokj8t9nvAGoDjJu/qjJUxK9R7UZUcKt2UFY7pncxRtqEe6AKnIIqwWNpuT/hoHWneG3eMzEs9xTKeanECUTZb1vGTcxiFzelDGrjhzVmCcpMY0yiFZgiDP9UCJVDJVyVKxyVWA3v3+LDWgkvozZ+ePZLeAnqrsNbyB+y1nym5E471QAAAABJRU5ErkJggg==" alt="" class="modal-header__backgroundicon">
     </div>
 </div>
     

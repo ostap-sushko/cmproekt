@@ -542,6 +542,11 @@ function hideClass(name) {
      * @param {Event} e
      */
     onKeyDown: function (e) {
+      const isInsideField =
+        e.target === this.canvas || e.target === this.containerEl;
+
+      if (!isInsideField) return;
+
       if (e.target != this.detailsButton) {
         if (
           !this.crashed &&
@@ -576,6 +581,10 @@ function hideClass(name) {
      * @param {Event} e
      */
     onKeyUp: function (e) {
+      const isInsideField =
+        e.target === this.canvas || e.target === this.containerEl;
+
+      if (!isInsideField) return;
       var keyCode = String(e.keyCode);
       var isjumpKey =
         Runner.keycodes.JUMP[keyCode] ||

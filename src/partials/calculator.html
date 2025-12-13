@@ -1,17 +1,36 @@
 <section class="calculator">
-<div class="container">
-<h2></h2>
-<div>
-    <input type="text" name="" id="">
-    <ul>
-        <li><button type="button"></button></li>
-        <li><button type="button"></button></li>
-        <li><button type="button"></button></li>
-        <li><button type="button"></button></li>
-    </ul>
-    <input type="text" name="" id="">
-    <button type="button"></button>
-    <p></p>
-</div>
-</div>
+  <div class="container">
+    <h2 class="calculator__title">Калькулятор</h2>
+    <div class="calculator__box">
+      <input
+        type="text"
+        name=""
+        class="calculator__firstinput"
+        placeholder="Введіть число"
+      />
+      <ul class="calculator__list">
+        <li class="calculator__item">
+          <button type="button" class="calculator__button">+</button>
+        </li>
+        <li class="calculator__item">
+          <button type="button" class="calculator__button">*</button>
+        </li>
+        <li class="calculator__item">
+          <button type="button" class="calculator__button">-</button>
+        </li>
+        <li class="calculator__item">
+          <button type="button" class="calculator__button">/</button>
+        </li>
+      </ul>
+      <input
+        type="text"
+        name=""
+        class="calculator__secondinput"
+        placeholder="Введіть число"
+      />
+      <button type="button" class="calculator__btn">=</button>
+      <p class="calculator__text">Результат</p>
+    </div>
+    <div class="calculator__line"></div>
+  </div>
 </section>

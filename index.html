@@ -10,8 +10,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap" rel="stylesheet">
     
-    <script type="module" crossorigin src="/cmproekt/assets/index-f93e5293.js"></script>
-    <link rel="stylesheet" href="/cmproekt/assets/index-dbd6734b.css">
+    <script type="module" crossorigin src="/cmproekt/assets/index-19ce7151.js"></script>
+    <link rel="stylesheet" href="/cmproekt/assets/index-0e3092ef.css">
   </head>
   <body>
   
@@ -67,7 +67,7 @@
             <form class="years__form">
                 <input type="text" placeholder="Введіть рік народження" required class="years__inputyear">
                 <button type="submit" class="years__buttonsubmit">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADESURBVHgBtVIBDcJADCwomISXgISXgINNAg54B8MBOJiEIQEHkzAclHb0k/Lp+gvJLmmyfa93328BFBAxUgwUM34xy/8ZaiBSjz76LcXsmCiCnAeKi7rR3SqOqvi0YhCUSCyTgyQS+C0m4Y1lIiuHikCTb1omFsAGWNwjxVuSoVLcWOcs8JLvDnzkXXiWynoKAWx3nsIkvNYiPJRIq/aAH+6Kv5tpmjD5hj6yyOSJdDznwnGUNnUb6yIedhE5wB8Q52WlP31IheF+VqWXAAAAAElFTkSuQmCC" alt="loupe" class="years__loupeimg">
+                    <img src="./img/loupe.png" alt="loupe" class="years__loupeimg">
                 </button>
             </form>
             <p class="years__identifyyear">Ваш рік високосний чи ні?</p>
@@ -95,20 +95,21 @@
 </div>
 </section>
     <section class="calculatetime">
-  <div class="container">
-    <h1 class="text">Калькулятор часу</h1>
-
-    <div class="wrapper">
-      <div class="input-box">
-        <input type="number" id="secondsInput" placeholder="Введіть число" />
-        <div class="search-btn" id="convertBtn"></div>
-      </div>
-
-      <div class="result" id="resultDisplay">...</div>
+    <div class="container">
+        <h2 class="calculatetime__title">Калькулятор часу</h2>
+        <div class="calculatetime__boxel">
+            <form class="calculatetime__form">
+                <input type="text" placeholder="Введіть число" required class="calculatetime__inputtime" id="timeInput" name="name">
+                <button type="submit" class="calculatetime__buttonsubmit">
+                    <img src="./img/loupe.png" alt="loupe" class="calculatetime__loupeimg">
+                </button>
+            </form>
+            <img src="../img/points.png" alt="" class="calculatetime__points">
+          <p class="calculatetime__time">0 дн. 00:00:00</p>
+        </div>
+        <div class="calculatetime__line"></div>
     </div>
-  </div>
 </section>
-
     <section class="googledino">
     <div class="container">
         <h2 class="googledino__title">Google динозавр</h2>

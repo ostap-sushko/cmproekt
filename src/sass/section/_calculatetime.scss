@@ -1,67 +1,98 @@
 @use "../bais/variable" as *;
 
-.text {
-font-size: 28px;
-font-weight: 600;
-margin-bottom: 40px;
+.calculatetime {
+  padding-bottom: 36px;
+}
+
+.calculatetime__title {
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.calculatetime__boxel {
+  display: flex;
+  gap: 33px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 36px;
+}
+
+.calculatetime__form {
+  position: relative;
+}
+
+.calculatetime__inputtime {
+  color: #7e7e7e;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 20px;
+ padding: 10px;
+  background: #d7d7d7;
+  box-shadow: 5px 4px #adadad;
+}
+
+.calculatetime__buttonsubmit {
+  top: 1px;
+  right: 0px;
+  position: absolute;
+  width: 38px;
+  height: 39px;
+  padding: 10px;
+  border-radius: 0 20px 20px 0;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
-.wrapper {
-display: flex;
-align-items: center;
-gap: 40px;
+.calculatetime__line {
+  margin-top: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 536px;
+  height: 1px;
+  stroke-width: 1px;
+  background-color: $main-color;
+  display: flex;
+  justify-content: center;
+}
+
+.years__line {
+  margin-top: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 536px;
+  height: 1px;
+  stroke-width: 1px;
+  background-color: $main-color;
+  display: flex;
+  justify-content: center;
 }
 
 
-.input-box {
-background: #ddd;
-border-radius: 30px;
-padding: 0;
-display: flex;
-align-items: center;
-overflow: hidden;
+
+.calculatetime__points{
+    stroke-width: 1px;
+stroke: #000;
+width: 100.0px;
+
 }
 
-
-.input-box input {
-border: none;
-background: transparent;
-padding: 15px 20px;
-font-size: 18px;
-width: 150px;
-outline: none;
-color: #555;
-}
-
-
-.search-btn {
-background: #000;
-width: 45px;
-height: 45px;
-display: flex;
-align-items: center;
-justify-content: center;
-border-radius: 0 30px 30px 0;
-cursor: pointer;
-}
-
-
-.search-btn span {
-color: white;
-font-size: 20px;
-}
-
-
-.dots {
-font-size: 24px;
-color: #888;
-}
-
-
-.result {
-font-size: 20px;
-color: #333;
-min-width: 170px;
-text-align: left;
+.calculatetime__time{
+  color: #000;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }

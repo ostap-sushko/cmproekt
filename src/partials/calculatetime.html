@@ -1,14 +1,16 @@
 <section class="calculatetime">
-  <div class="container">
-    <h1 class="text">Калькулятор часу</h1>
-
-    <div class="wrapper">
-      <div class="input-box">
-        <input type="number" id="secondsInput" placeholder="Введіть число" />
-        <div class="search-btn" id="convertBtn"></div>
-      </div>
-
-      <div class="result" id="resultDisplay">...</div>
+    <div class="container">
+        <h2 class="calculatetime__title">Калькулятор часу</h2>
+        <div class="calculatetime__boxel">
+            <form class="calculatetime__form">
+                <input type="text" placeholder="Введіть число" required class="calculatetime__inputtime" id="timeInput" name="name">
+                <button type="submit" class="calculatetime__buttonsubmit">
+                    <img src="./img/loupe.png" alt="loupe" class="calculatetime__loupeimg">
+                </button>
+            </form>
+            <img src="../img/points.png" alt="" class="calculatetime__points">
+          <p class="calculatetime__time">0 дн. 00:00:00</p>
+        </div>
+        <div class="calculatetime__line"></div>
     </div>
-  </div>
 </section>

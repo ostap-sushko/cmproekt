@@ -10,8 +10,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap" rel="stylesheet">
     
-    <script type="module" crossorigin src="/cmproekt/assets/index-19ce7151.js"></script>
-    <link rel="stylesheet" href="/cmproekt/assets/index-0e3092ef.css">
+    <script type="module" crossorigin src="/cmproekt/assets/index-e9ad2e99.js"></script>
+    <link rel="stylesheet" href="/cmproekt/assets/index-08c38507.css">
   </head>
   <body>
   
@@ -67,7 +67,7 @@
             <form class="years__form">
                 <input type="text" placeholder="Введіть рік народження" required class="years__inputyear">
                 <button type="submit" class="years__buttonsubmit">
-                    <img src="./img/loupe.png" alt="loupe" class="years__loupeimg">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADFSURBVHgBtVIBEcIwDAwomINVAg6YBBxsEnBQHAwH4GASQAIOJmE4CM1I70IuS3fc7e9y1zaf/7YJgAAiNimGFBN+MfH+BCUk0hV99GuKyTGmqPk8pDiLG92s4kYUHxYMghBpdHLgRAT/iZF5D53IyqEgUOWb6sQMWAGLu0/x5mRdKK6scxJ48boDH3kWnlpZdiGA7U5dGJnXWoS7EGmzEH/cBX8n0zQhco8+ssjoiXTUZ+VI+6N6xrKIh01EdvAH2Hke6Q900YXdEYBVTAAAAABJRU5ErkJggg==" alt="loupe" class="years__loupeimg">
                 </button>
             </form>
             <p class="years__identifyyear">Ваш рік високосний чи ні?</p>
@@ -78,22 +78,42 @@
     
     
     <section class="calculator">
-<div class="container">
-<h2></h2>
-<div>
-    <input type="text" name="" id="">
-    <ul>
-        <li><button type="button"></button></li>
-        <li><button type="button"></button></li>
-        <li><button type="button"></button></li>
-        <li><button type="button"></button></li>
-    </ul>
-    <input type="text" name="" id="">
-    <button type="button"></button>
-    <p></p>
-</div>
-</div>
+  <div class="container">
+    <h2 class="calculator__title">Калькулятор</h2>
+    <div class="calculator__box">
+      <input
+        type="text"
+        name=""
+        class="calculator__firstinput"
+        placeholder="Введіть число"
+      />
+      <ul class="calculator__list">
+        <li class="calculator__item">
+          <button type="button" class="calculator__button">+</button>
+        </li>
+        <li class="calculator__item">
+          <button type="button" class="calculator__button">*</button>
+        </li>
+        <li class="calculator__item">
+          <button type="button" class="calculator__button">-</button>
+        </li>
+        <li class="calculator__item">
+          <button type="button" class="calculator__button">/</button>
+        </li>
+      </ul>
+      <input
+        type="text"
+        name=""
+        class="calculator__secondinput"
+        placeholder="Введіть число"
+      />
+      <button type="button" class="calculator__btn">=</button>
+      <p class="calculator__text">Результат</p>
+    </div>
+    <div class="calculator__line"></div>
+  </div>
 </section>
+
     <section class="calculatetime">
     <div class="container">
         <h2 class="calculatetime__title">Калькулятор часу</h2>
@@ -101,7 +121,7 @@
             <form class="calculatetime__form">
                 <input type="text" placeholder="Введіть число" required class="calculatetime__inputtime" id="timeInput" name="name">
                 <button type="submit" class="calculatetime__buttonsubmit">
-                    <img src="./img/loupe.png" alt="loupe" class="calculatetime__loupeimg">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADFSURBVHgBtVIBEcIwDAwomINVAg6YBBxsEnBQHAwH4GASQAIOJmE4CM1I70IuS3fc7e9y1zaf/7YJgAAiNimGFBN+MfH+BCUk0hV99GuKyTGmqPk8pDiLG92s4kYUHxYMghBpdHLgRAT/iZF5D53IyqEgUOWb6sQMWAGLu0/x5mRdKK6scxJ48boDH3kWnlpZdiGA7U5dGJnXWoS7EGmzEH/cBX8n0zQhco8+ssjoiXTUZ+VI+6N6xrKIh01EdvAH2Hke6Q900YXdEYBVTAAAAABJRU5ErkJggg==" alt="loupe" class="calculatetime__loupeimg">
                 </button>
             </form>
             <img src="../img/points.png" alt="" class="calculatetime__points">
@@ -182,7 +202,36 @@
 </section>
     
     
-    
+    <section>
+    <div class="container">
+        <h2>Обери вченого/их</h2>
+        <list>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+        </list>
+        <list>
+            <li><button type="button">Які вчені народилися в 19 ст</button></li>
+            <li><button type="button">Знайти рік народження Albert Einstein</button></li>
+            <li><button type="button">Відсортувати вчених за алфавітом</button></li>
+            <li><button type="button">Прізвища вчених, імена яких починається на літеру "С"</button></li>
+            <li><button type="button"></button></li>
+            <li><button type="button"></button></li>
+            <li><button type="button"></button></li>
+            <li><button type="button"></button></li>
+            <li><button type="button"></button></li>
+        </list>
+    </div>
+</section>
     
     <div class="modal-header">
     <button type="button" class="modal-header__close">

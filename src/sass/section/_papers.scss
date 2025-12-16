@@ -1,1 +1,82 @@
 @use "../bais/variable" as *;
+.papers__newbox{
+     margin-left: 200px;
+}
+.papers__box{
+   display: flex;
+   justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+   gap: 110px;
+}
+
+.papers__title{
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 auto;
+ 
+    margin-bottom: 36px;
+
+}
+
+
+.papers__list{
+  
+    display: flex;
+     gap: 38px;
+    align-items: center;
+} 
+.papers__text{
+    color: #000;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 170%;
+width: 93.0px;
+
+}
+.papers__textw{
+    color: #039900;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: none;
+text-align: center;
+margin-top: 36px;
+}
+.papers__textl{
+    color: red;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: none;
+text-align: center;
+  margin-top: 36px;
+}
+.papers__btn{
+display: inline-flex;
+padding: 10px 20px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 20px;
+background: #000;
+
+color: #FFF;
+
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  
+}
+.papers__parent{
+    display: flex;
+justify-content: center;
+margin: 36px auto 0;
+}

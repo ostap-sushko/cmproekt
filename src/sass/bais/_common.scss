@@ -1,7 +1,11 @@
-body{
-    background-color: #FFFFFF;
-    font-family: "Montserrat";
+body {
+  font-family: 'Montserrat';
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #FFFFFF;
 }
-  html {
+
+html {
   scroll-behavior: smooth;
 }

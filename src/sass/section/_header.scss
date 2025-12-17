@@ -3,13 +3,16 @@
 .header {
   padding-top: 21px;
   padding-bottom: 21px;
+  width: 100%;
+  background-color: #ffffff;
 }
 
 .header .container {
   display: flex;
-  gap: 361px;
+  gap: 434px;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .header__mainbox {

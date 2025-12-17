@@ -1,8 +1,7 @@
 @use '../bais/variable' as *;
 
-.populargames {
-  padding-bottom: 36px;
-  padding-top: 36px;
+.populargames .container {
+  height: 101px;
 }
 
 .populargames__title {

@@ -1,8 +1,11 @@
 @use "../bais/variable" as *;
 
 .calculatetime {
-  padding-bottom: 36px;
+  .container{
+    height: 163px;
+  }
 }
+
 
 .calculatetime__title {
   margin-left: auto;
@@ -62,7 +65,7 @@
   width: 536px;
   height: 1px;
   stroke-width: 1px;
-  background-color: $main-color;
+
   display: flex;
   justify-content: center;
 }
@@ -74,7 +77,6 @@
   width: 536px;
   height: 1px;
   stroke-width: 1px;
-  background-color: $main-color;
   display: flex;
   justify-content: center;
 }

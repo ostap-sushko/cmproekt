@@ -10,8 +10,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap" rel="stylesheet">
     
-    <script type="module" crossorigin src="/cmproekt/assets/index-5c5c0ce6.js"></script>
-    <link rel="stylesheet" href="/cmproekt/assets/index-2f1ff094.css">
+    <script type="module" crossorigin src="/cmproekt/assets/index-a85d3661.js"></script>
+    <link rel="stylesheet" href="/cmproekt/assets/index-f4deee2d.css">
   </head>
   <body>
   
@@ -153,8 +153,8 @@
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADFSURBVHgBtVIBEcIwDAwomINVAg6YBBxsEnBQHAwH4GASQAIOJmE4CM1I70IuS3fc7e9y1zaf/7YJgAAiNimGFBN+MfH+BCUk0hV99GuKyTGmqPk8pDiLG92s4kYUHxYMghBpdHLgRAT/iZF5D53IyqEgUOWb6sQMWAGLu0/x5mRdKK6scxJ48boDH3kWnlpZdiGA7U5dGJnXWoS7EGmzEH/cBX8n0zQhco8+ssjoiXTUZ+VI+6N6xrKIh01EdvAH2Hke6Q900YXdEYBVTAAAAABJRU5ErkJggg==" alt="loupe" class="calculatetime__loupeimg">
                 </button>
             </form>
-            <img src="../img/points.png" alt="" class="calculatetime__points">
-          <p class="calculatetime__time">0 дн. 00:00:00</p>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAABCAYAAAAo2wu9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAcSURBVHgB7cchAQAADAKw9S/N5SNgmBvEy979AbrtMc9E2R7HAAAAAElFTkSuQmCC" alt="" class="calculatetime__points">
+          <p class="calculatetime__time">0 дн. 00:00</p>
         </div>
         <div class="calculatetime__line"></div>
     </div>
@@ -232,7 +232,29 @@
   </div>
 </section>
 
-    
+    <section class="number" id="number">
+    <div class="container number__wrap">
+        <div>
+            <div class="number__border"></div>
+            <h2 class="number__logo">Введіть 3 числа</h2>
+            <ul class="number__list">
+                <li class="number__item">
+                    <input type="text" class="number__input" id="inp1" placeholder="Введіть число" />
+                </li>
+                <li class="number__item">
+                    <input type="text" class="number__input" id="inp2" placeholder="Введіть число" />
+                </li>
+                <li class="number__item">
+                    <input type="text" class="number__input" id="inp3" placeholder="Введіть число" />
+                </li>
+            </ul>
+            <div class="number__fix">
+                <p class="number__text">Найбільше число, яке ви ввели - (число) </p>
+                <p class="number__num" id="result223"> </p>
+            </div>
+        </div>
+    </div>
+</section>
     
     <section>
     <div class="container">
@@ -264,7 +286,36 @@
         </list>
     </div>
 </section>
-    
+    <footer class="footer" id="footer">
+    <div class="container">
+        <div class="footer__wrap">
+            <div class="footer__box">
+                   <a class="footer__logo" href="#">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAnCAYAAAB5XdqFAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIzSURBVHgB7ZjPUcJAFId/oAVgB/HIjQ7cIzfswHQgdoAdaAW8DtQKjBXIjRku0QqABoj72LdDyCDsv0GY8Zt5Q2bzNnxsXnaXXCAt7zq+dXzhxMlhZM8CFh3uOa909PBHZBIQiSc+mM1m4+l0qmrt/CM+a7nOXCINtzru5bjQ8agle1VV5TA129Ex5nbIj/AlleiTBI/aDYutVivVarX4XKFjouNaxwKBtJEOHrUBTA1O2u02Hy+63W6hP0c65jC3/l5yvUglyreea49H9IEblsul0rf+A6YeSx1XOp5hRtZbNBUjmJG08HHV7/fvYKTKxvmTgeu1wmYaynHE+ZVHJnPM5TIoG20sOgi8njM8MnOJQ2QwozlutHewXZulXC/Z5G8l+ctd5sBbyR0cyCPJSyJblyTHPiT5mUdulGyIJMO39NMjnxAhGyrZg3uJ1CEEyIZKMrn0U/CH4CEbI8m8SN9QCA6ysZLAZj2PgbBHNoWkkv5DxEPYIZtCkhlie9mMhdCQLaXhBXG8w23l8sHW/Pq6hPhJtyPXeEU6dq6IhDhZJf3vkIa95UgIl7XbugzxOD0zhDDZXdu6ELwebIKfbIbd2zpfgmYfgrtsDrdt3T6ipkiCm6zNC/3DlmQeJxyW5doMXTZTLTZrCL/Lhm7rbN9kkhZCbYWoYZdNBX/sikguya6vdHKY1zFfjfYbaS/gz5v0HeEIpNjWORHzSkfBPOlvOAKxokyBIxAjamt2gn/OkB+/x9yoZ4jySQAAAABJRU5ErkJggg==" alt="footerlogo" class="footer__logoimg">
+                <p class="footer__textcoding">Coding<span class="footer__textmagic">Magic</span></p>
+               </a>
+                <!-- <a href="#age" class="footer__logo-link"> -->
+                <!-- <div aria-hidden="true" class="footer__img"></div> -->
+                </a>
+                <ul>
+                    <li><a target="_blank" href="tel:+380961111111" class="footer__link">Тел: +38 (123) 456 78 90</a></li>
+                    <li><a target="_blank" href="mailto:codingmagic@gmail.com" class="footer__link">E-Mail: codingmagic@gmail.com</a></li>
+                    <li><a target="_blank" href="https://www.facebook.com/?locale=ua_UA" class="footer__link">Facebook: CodingMagic</a></li>
+                    <li><a target="_blank" href="https://x.com/" class="footer__link">Twitter: CodingMagic</a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/" class="footer__link">Instagram: CodingMagic</a></li>
+                </ul>
+            </div>
+            <div>
+                <form class="footer__form">
+                    <input type="email" placeholder="Ваша ел. адреса..." class="footer__input" required>
+                    <button type="submit" class="footer__btn">Підписатись</button>
+                    <p class="footer__text">*Підписавшись, Ви зможете ортимувати інформацію про новинки на сайті</p>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+
     <div class="backdrop">
     <div class="modal-header">
         <button type="button" class="modal-header__close">
@@ -295,7 +346,16 @@
         </div>
     </div>
 </div>
-    
+    <section class="backdrop is-hidden">
+    <div class="modal">
+        <button class="backdrop__btn"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAB/SURBVHgBnZLBDYAgDEUbXcARHAEncRU3cCTn8eTVm45gSWoCAdp+SH4gJO8F2o5EdHBOzk3Y2jlLPATOJTsCR2b+LxBJASOSJuyRmLAmccM1CQynkseCB0Wwcl45TwSu9NnwnNT+7JZoBTMlnmo3JUirCklPnzPJRh1DInD4AF2uKF/+4EilAAAAAElFTkSuQmCC" class="backdrop__img" alt="close"></button>
+        <p class="backdrop__text">Дякую за підписку!</p>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKFSURBVHgB7ZnPahRBEMa/TeLFg0dBD4qgxIcIXvSiB4nEk68hguLJBxD/IagnRYMnQQTzDslTJIckh+SSkEP+J12kPqqn6dnZSXZmutn9oOjdTXdP/aiqnu4OMNZYraiHeppAIoo58sbZlrPNCttx9gAJwYTadnbs7MTZgbYxO9T2IRKF2YA5e+TssrNpZ7c9u+7sJwzmERKEERA6uKefRZNeH9bSLyQcGUbkCs5SqwyGTvswSUWGIHf1e12YZCJDkDswp8XJ7CLjg4imtK0L03lkQhBRljAEuYnim54w2SwAO+rEb/2eJYw87D7srT6vv8dgkk+zCX3oyMFkkWYjGZmRTjMfhu21yPxDU9M1wz7/9LdPkfmHpiZhZpz9hR3k5GD3OTL/0DTsmpmHwexr+xx2qEsGpl9k2GcZFokZnX8WFpnXaFAXhWFE/uvfCDGlczyFgbxEw7pImokEgunkQzyDpdaHyJyN6DwwctX0AwlBUHVg5KrpSK0fxNvIHK2oCoY18R3FJTeE4H3aLRh86yqDoUOD1MSqs13Y5UdyMAuohuDbfBGJwqygGuKjjr2kbTIw8uB7KN4RV0H0vLGizmFY2H9QfGP3S6dwdUoGRnax/dJJVqdV7VvmXOcwV2HOvsDZliSMxIk6t4Si06E6hRGn38EcfuJsDgbx3tkNGMxi4HSozmBYI5L/hAkLW5yYRv3ILMFgZPwkGhZhxPFjtdjqVAeGS/Oa9j9ESyLMK9hWPLY6DQLDcV9hUZ5Fi5cXvZLPvkKYsGY47gsMYg4dbCgHUVlkmE5ZQFBlMN+QEQQVwqzDtjhy/M0CgvJheJ7PJhKhBEb+YybL9mNkCkGFV6ljZaVTwQmEKlfdnIIAAAAASUVORK5CYII=" class="backdrop__icons" alt="sword">
+        <img src="data:image/png;base64,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" class="backdrop__icons" alt="puzzle">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGHSURBVHgB5VcxTsQwEBwHhCiBkqtAtHyEmlcABVTwBBqQ+AJfoYIOQYVoEBLFNUg0gMIFduI155DkwD6b5kYa2Zaznt3sZhUDQCHcFb4JPzOzFB4JjRCHwg9hFXjISBkjzkDrCUVXEQZ3UAgGqsW3+x1pKGKEnV3F/BqkA886Fg6Fd8JtdJ9vnAepIq6j8fZYO5ewBdyySyHMCK51/SBcEm5iXIBbuYSJSulHt+4507CbRzoYzwGHoY6LPx8ukE70VUUPdE3e6P55l1GqV70GW0ylt+cKLVtxEXPCDU+M4z3an1NtZ9CszFDhaLtUOQ6Gq+qYtuk3ilC7wkUck2Miut3OXo77hE3PmF34Cra5L+szritlF76AzQV77bNwQR1JGnnXJ0GHTry9F7SdnLrj9Qn7PZc9eAXNiLMIP8LmlOJnGP+Fdh6QUnhf+AQbOXkqvMU/RGx+WffZ/Vm4mLA5aT01KPyuBw+QH06DNYMdnYReRUYRdpXa8NpU54+TMkI8lLy67AmLL5awAr4RVA3dAAAAAElFTkSuQmCC" class="backdrop__icons" alt="game">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIsSURBVHgBtVa7SgNBFD0bI5jKxqQQv8BOELH2C/wIKxGJRBsRY6u2gj9hofjAB1ZqEbSyVFBEUTsfoOIjWe9lZ9jJ7MzuziY5cNjdOzP3zNy5M3uBAE9Ev0O8hwUPxAmD3UN7wL5fTP585VkR1G0ukOMlVQ2jsI52rdiokSf+wi7eLjSQZjYdQEQjh2R42tNkc96WJGF2WERzogDRI1NEBvG45CqJ9hKaHZeJWwgmXrT0SdTwHUU9Ye9SvpPEUwv3xTgaJT4jfqKJGrY9jtv7TeJ4THsDKWELtSl8XcKmh962LXEascmlinMUOKHKjqLOwrpjW98kUWQR1ichn56lzTYm080FbTA7W0CQRPICWUV4vFTfK6K9Lp5V2S8PN/CgR+IdsUD8FvY94quYQE5Mao5YI3YT/8SET4iTxH51JWkwTzxFGMIKwtAfES+IS8RL4g7CiM4q/c7Ft5Owj+Y9VsfmEU1CU78e4rtuTCPMkFXGJ8IqRc+XHOzVjK86Syuc174ZahTiLhCvFeFDRUitx2yrU/txFLazCnNWb8BcGOjvOnYRVLW+yzmW4KNwoNlqCM+0er7PEO49T2ifOCAH1ZEepuiMISgYTbfZG3HE5IcTZUY4XET09lHxZbDxao4RnN2qoX0dQTRy0CbNhjXiIMJfno2mW26aeCveTWP4ZrsmTqGFwpBxQ1wWg3uRLjFlqVQQ73x/1+AIeeWxow/iEJJXwO3DxB8x7opt/zQRw+8O5RCiAAAAAElFTkSuQmCC" class="backdrop__icons" alt="code">
+    </div>
+</section>
 
     
   </body>

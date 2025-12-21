@@ -1,1 +1,86 @@
 @use "../bais/variable" as *;
+
+.guessnumber .container {
+  height: 163px;
+}
+
+.guessnumber__title {
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.guessnumber__box {
+  display: flex;
+  gap: 202px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 36px;
+}
+
+.guessnumber__form {
+  position: relative;
+  // width: 150px;
+}
+
+.guessnumber__inputyear {
+  width: 155px;
+  color: #7e7e7e;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px 10px 10px 10px;
+  border-radius: 20px;
+  background: #d7d7d7;
+  box-shadow: 5px 4px #adadad;
+}
+
+.guessnumber__buttonsubmit {
+  top: 1px;
+  right: 0px;
+  position: absolute;
+  width: 38px;
+  height: 39px;
+  padding: 10px;
+  border-radius: 0 20px 20px 0;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.guessnumber__identifyyear {
+  color: #5d5d5d;
+  text-align: right;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.guessnumber__line {
+  margin-top: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 536px;
+  height: 1px;
+  stroke-width: 1px;
+  background-color: $main-color;
+  display: flex;
+  justify-content: center;
+}
+
+.yeartrue {
+  color: #039900;
+}
+
+.yearfalse {
+  color: #990000;
+}

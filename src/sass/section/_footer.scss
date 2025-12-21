@@ -1,7 +1,8 @@
 @use "../bais/variable" as *;
 
 .footer {
-    padding: 20px 0;
+      width: 100%;
+      
 
     .container{
         display: flex;
@@ -12,7 +13,7 @@
         display: flex;
         // justify-content: space-between;
         align-items: center;
-        gap: 187px;
+        gap: 250px;
     }
 
     // &__img {
@@ -63,7 +64,7 @@
     &__box {
         display: flex;
         align-items: center;
-        gap: 185px;
+        gap: 400px;
     }
 
     &__input {
@@ -74,7 +75,6 @@
         border-radius: 20px;
         background: #D7D7D7;
         color: #7E7E7E;
-
         font-size: 12px;
         font-weight: 400;
         border: none;
@@ -96,8 +96,13 @@
 
     &__text {
         color: #000;
-        font-size: 6px;
+        font-size: 8px;
         font-weight: 400;
         margin-top: 18px;
     }
+
+}
+
+.form__box{
+    display: flex;
 }

@@ -1,6 +1,8 @@
 const formEl = document.querySelector(".footer__form");
-const backdropEl = document.querySelector(".backdrop");
-const closeBtn = document.querySelector(".backdrop__btn");
+const backdropEl = document.querySelector(".backdropnew");
+console.log(backdropEl);
+
+const closeBtn = document.querySelector(".backdropnew__btn");
 
 function closeBackdrop() {
     backdropEl.classList.add("is-hidden");
@@ -12,6 +14,8 @@ function openBackdrop() {
 
 formEl.addEventListener("submit", function (event) {
     event.preventDefault();
+    console.log("Ура");
+    
     openBackdrop();
 });
 

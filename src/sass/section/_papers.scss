@@ -20,10 +20,15 @@
     margin-bottom: 36px;
 
 }
-
+// .papers__img{
+// pointer-events: auto;
+// }
+.papers__item{
+    pointer-events: auto;
+}
 
 .papers__list{
-  
+
     display: flex;
      gap: 38px;
     align-items: center;

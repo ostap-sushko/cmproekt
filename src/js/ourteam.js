@@ -7,22 +7,22 @@ const stripesRef = document.querySelectorAll('.ourteam__stripe');
 
 const teamData = [
   {
-    img: 'img/anonymous.png',
+    img: '../img/anonymous.png',
     text: 'Остап Сушко',
     subtext: 'Тімлід',
   },
   {
-    img: 'img/matviy.jpg',
+    img: '../img/matviy.jpg',
     text: 'Матвій Присяжнюк',
     subtext: 'Скраммайстер',
   },
   {
-    img: 'img/andrew.jpg',
+    img: '../img/andrew.jpg',
     text: 'Андрій Лопушинський',
     subtext: 'Розробник сайту',
   },
   {
-    img: 'img/volodya.jpg',
+    img: '../img/volodya.jpg',
     text: 'Володя Качур',
     subtext: 'Розробник сайту',
   },

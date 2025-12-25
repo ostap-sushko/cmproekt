@@ -10,8 +10,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap" rel="stylesheet">
     
-    <script type="module" crossorigin src="/cmproekt/assets/index-3072bc5e.js"></script>
-    <link rel="stylesheet" href="/cmproekt/assets/index-c318ab2c.css">
+    <script type="module" crossorigin src="/cmproekt/assets/index-cc8b3a13.js"></script>
+    <link rel="stylesheet" href="/cmproekt/assets/index-bacd1ca1.css">
   </head>
   <body>
   
@@ -271,35 +271,82 @@
         </div>
     </div>
 </section>
-    
-    <section>
+    <section class="ourteam">
+  <div class="container">
+    <h2 class="ourteam__title">Наша команда</h2>
+    <div class="ourteam__bigbox">
+      <button type="button" class="ourteam__btnback">
+        <svg
+          width="52"
+          height="101"
+          viewBox="0 0 52 101"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M50.7071 0.353516L0.707095 50.3535L50.7071 100.354"
+            stroke="black"
+          />
+        </svg>
+      </button>
+      <div class="ourteam__box">
+        <img src="" alt="" class="ourteam__img"/>
+        <p class="ourteam__text">placeholder</p>
+        <p class="ourteam__subtext">placeholder</p>
+      </div>
+      <button type="button" class="ourteam__btnnext">
+        <svg
+          width="52"
+          height="101"
+          viewBox="0 0 52 101"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0.353546 0.353516L50.3535 50.3535L0.353546 100.354"
+            stroke="black"
+          />
+        </svg>
+      </button>
+    </div>
+    <ul class="ourteam__list">
+      <li class="ourteam__item">
+        <div class="ourteam__stripe"></div>
+      </li>
+      <li class="ourteam__item">
+        <div class="ourteam__stripe"></div>
+      </li>
+      <li class="ourteam__item">
+        <div class="ourteam__stripe"></div>
+      </li>
+      <li class="ourteam__item">
+        <div class="ourteam__stripe"></div>
+      </li>
+    </ul>
+    <div class="ourteam__line"></div>
+  </div>
+</section>
+
+    <section class="choose">
     <div class="container">
-        <h2>Обери вченого/их</h2>
-        <list>
-            <li><img src="" alt=""></li>
-            <li><img src="" alt=""></li>
-            <li><img src="" alt=""></li>
-            <li><img src="" alt=""></li>
-            <li><img src="" alt=""></li>
-            <li><img src="" alt=""></li>
-            <li><img src="" alt=""></li>
-            <li><img src="" alt=""></li>
-            <li><img src="" alt=""></li>
-            <li><img src="" alt=""></li>
-            <li><img src="" alt=""></li>
-            <li><img src="" alt=""></li>
-        </list>
-        <list>
-            <li><button type="button">Які вчені народилися в 19 ст</button></li>
-            <li><button type="button">Знайти рік народження Albert Einstein</button></li>
-            <li><button type="button">Відсортувати вчених за алфавітом</button></li>
-            <li><button type="button">Прізвища вчених, імена яких починається на літеру "С"</button></li>
-            <li><button type="button"></button></li>
-            <li><button type="button"></button></li>
-            <li><button type="button"></button></li>
-            <li><button type="button"></button></li>
-            <li><button type="button"></button></li>
-        </list>
+        <h2 class="choose__title">Обери вченого/их</h2>
+        <ul class="choose__list">
+        </ul>
+        <div class="choose__box">
+        <ul class="choose__items">
+            <li class="choose__itm"><button type="button" class="choose__button" data-action="19st">Які вчені народилися в 19 ст</button></li>
+            <li class="choose__itm"><button type="button" class="choose__button" data-action="alphabet">Відсортувати вчених за алфавітом</button></li>
+            <li class="choose__itm"><button type="button" class="choose__button" data-action="sumYears">Відсортувати вчених за кількістю прожитих років</button></li>
+            <li class="choose__itm"><button type="button" class="choose__button" data-action="youngest">Знайти вченого, який народився найпізніше</button></li>
+        </ul>
+        <ul class="choose__itms">
+            <li class="choose__itm"><button type="button" class="choose__button" data-action="albert">Знайти рік народження Albert Einstein</button></li>
+            <li class="choose__itm"><button type="button" class="choose__button" data-action="start'C'">Прізвища вчених, імена яких починається на літеру "С"</button></li>
+            <li class="choose__itm"><button type="button" class="choose__button" data-action="del'A'">Видалити всіх вчених, ім’я яких починається на “А”</button></li>
+            <li class="choose__itm"><button type="button" class="choose__button" data-action="mostLeast">Знайти вченого, який прожив найдовше і вченого, який прожив найменше</button></li>
+        </ul>
+        </div>
+            <button type="button" class="choose__btn choose__button" data-action="letters">Знайти вчених, в яких співпадають перші літери імені і прізвища</button>
     </div>
 </section>
     <footer class="footer" id="footer">

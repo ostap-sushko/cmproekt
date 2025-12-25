@@ -1,6 +1,6 @@
 @use '../bais/variable' as *;
 .football {
-  padding-bottom: 36px;
+ 
 
   &__title {
     color: #000;
@@ -38,4 +38,16 @@
     position: absolute;
     transition: 1s all;
   }
+
+  &__line {
+  margin-top: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 536px;
+  height: 1px;
+  stroke-width: 1px;
+  background-color: $main-color;
+  display: flex;
+  justify-content: center;
+}
 }

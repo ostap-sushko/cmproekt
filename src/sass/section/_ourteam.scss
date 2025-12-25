@@ -1,1 +1,76 @@
-@use "../bais/variable" as *;
+@use '../bais/variable' as *;
+
+.ourteam {
+  &__title {
+    color: $main-color;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 36px;
+  }
+
+  &__bigbox {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__btnback {
+    margin-bottom: auto;
+    margin-top: 20px;
+  }
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  &__img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    background: #d9d9d9;
+  }
+
+  &__btnnext {
+    margin-bottom: auto;
+    margin-top: 20px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 24px;
+  }
+
+  &__stripe {
+    width: 18px;
+    height: 3px;
+    border-radius: 3px;
+    background: $second-color;
+    transition: all 0.3s ease;
+    &.active {
+      width: 30px;
+      background: #797979;
+    }
+  }
+
+  &__line {
+    margin-top: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 536px;
+    height: 1px;
+    stroke-width: 1px;
+    background-color: $main-color;
+    display: flex;
+    justify-content: center;
+  }
+}

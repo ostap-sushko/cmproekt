@@ -6,18 +6,15 @@ const equalsBtn = document.querySelector('.calculator__btn');
 
 let currentOp = null;
 
-// Вибір операції
 opButtons.forEach(btn => {
   btn.addEventListener('click', () => {
     currentOp = btn.textContent.trim();
 
-    // Можеш додати візуальне підсвічування, якщо хочеш
     opButtons.forEach(b => b.classList.remove('active-op'));
     btn.classList.add('active-op');
   });
 });
 
-// Обчислення
 equalsBtn.addEventListener('click', () => {
   const a = parseFloat(input1.value);
   const b = parseFloat(input2.value);

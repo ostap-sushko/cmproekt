@@ -1,30 +1,22 @@
-<section>
+<section class="choose">
     <div class="container">
-        <h2>Обери вченого/их</h2>
-        <list>
-            <li><img src="" alt=""></li>
-            <li><img src="" alt=""></li>
-            <li><img src="" alt=""></li>
-            <li><img src="" alt=""></li>
-            <li><img src="" alt=""></li>
-            <li><img src="" alt=""></li>
-            <li><img src="" alt=""></li>
-            <li><img src="" alt=""></li>
-            <li><img src="" alt=""></li>
-            <li><img src="" alt=""></li>
-            <li><img src="" alt=""></li>
-            <li><img src="" alt=""></li>
-        </list>
-        <list>
-            <li><button type="button">Які вчені народилися в 19 ст</button></li>
-            <li><button type="button">Знайти рік народження Albert Einstein</button></li>
-            <li><button type="button">Відсортувати вчених за алфавітом</button></li>
-            <li><button type="button">Прізвища вчених, імена яких починається на літеру "С"</button></li>
-            <li><button type="button"></button></li>
-            <li><button type="button"></button></li>
-            <li><button type="button"></button></li>
-            <li><button type="button"></button></li>
-            <li><button type="button"></button></li>
-        </list>
+        <h2 class="choose__title">Обери вченого/их</h2>
+        <ul class="choose__list">
+        </ul>
+        <div class="choose__box">
+        <ul class="choose__items">
+            <li class="choose__itm"><button type="button" class="choose__button" data-action="19st">Які вчені народилися в 19 ст</button></li>
+            <li class="choose__itm"><button type="button" class="choose__button" data-action="alphabet">Відсортувати вчених за алфавітом</button></li>
+            <li class="choose__itm"><button type="button" class="choose__button" data-action="sumYears">Відсортувати вчених за кількістю прожитих років</button></li>
+            <li class="choose__itm"><button type="button" class="choose__button" data-action="youngest">Знайти вченого, який народився найпізніше</button></li>
+        </ul>
+        <ul class="choose__itms">
+            <li class="choose__itm"><button type="button" class="choose__button" data-action="albert">Знайти рік народження Albert Einstein</button></li>
+            <li class="choose__itm"><button type="button" class="choose__button" data-action="start'C'">Прізвища вчених, імена яких починається на літеру "С"</button></li>
+            <li class="choose__itm"><button type="button" class="choose__button" data-action="del'A'">Видалити всіх вчених, ім’я яких починається на “А”</button></li>
+            <li class="choose__itm"><button type="button" class="choose__button" data-action="mostLeast">Знайти вченого, який прожив найдовше і вченого, який прожив найменше</button></li>
+        </ul>
+        </div>
+            <button type="button" class="choose__btn choose__button" data-action="letters">Знайти вчених, в яких співпадають перші літери імені і прізвища</button>
     </div>
 </section>

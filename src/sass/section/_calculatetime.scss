@@ -1,11 +1,10 @@
-@use "../bais/variable" as *;
+@use '../bais/variable' as *;
 
 .calculatetime {
-  .container{
+  .container {
     height: 163px;
   }
 }
-
 
 .calculatetime__title {
   margin-left: auto;
@@ -38,7 +37,7 @@
   font-weight: 400;
   line-height: normal;
   border-radius: 20px;
- padding: 10px;
+  padding: 10px;
   background: #d7d7d7;
   box-shadow: 5px 4px #adadad;
 }
@@ -57,7 +56,6 @@
   justify-content: center;
 }
 
-
 .calculatetime__line {
   margin-top: 36px;
   margin-left: auto;
@@ -65,7 +63,7 @@
   width: 536px;
   height: 1px;
   stroke-width: 1px;
-
+  background-color: $main-color;
   display: flex;
   justify-content: center;
 }
@@ -81,20 +79,17 @@
   justify-content: center;
 }
 
-
-
-.calculatetime__points{
-    stroke-width: 1px;
-stroke: #000;
-width: 100.0px;
-
+.calculatetime__points {
+  stroke-width: 1px;
+  stroke: #000;
+  width: 100px;
 }
 
-.calculatetime__time{
+.calculatetime__time {
   color: #000;
-    text-align: right;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  text-align: right;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }

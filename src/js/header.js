@@ -11,6 +11,7 @@ const linkRef = document.querySelectorAll('a');
 const pTextRef = document.querySelectorAll('p');
 const spanText = document.querySelectorAll('span');
 const svgRef = document.querySelector('path');
+const modalFooter = document.querySelector(".modal-footer")
 
 contRef.addEventListener('click', () => {
   contRef.classList.toggle('active-slider');
@@ -18,6 +19,7 @@ contRef.addEventListener('click', () => {
     sliderRef.src = night;
     document.body.style.backgroundColor = '#333';
     modalRef.style.backgroundColor = '#444';
+    modalFooter.style.backgroundColor = '#444';
 
     containerRef.forEach(el => el.classList.add('dark-mode'));
     allTextRef.forEach(el => (el.style.color = '#FFFFFF'));
@@ -30,6 +32,7 @@ contRef.addEventListener('click', () => {
     sliderRef.src = sun;
     document.body.style.backgroundColor = '#FFFFFF';
     modalRef.style.backgroundColor = '#FFFFFF';
+    modalFooter.style.backgroundColor = '#FFFFFF';
 
     containerRef.forEach(el => el.classList.remove('dark-mode'));
     allTextRef.forEach(el => (el.style.color = '#000'));

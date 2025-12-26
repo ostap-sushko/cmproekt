@@ -12,6 +12,14 @@ closeRef.addEventListener('click', () => {
   document.body.style.overflow = 'visible';
 });
 
+backdrop.addEventListener('click', event => {
+  if (event.target === backdrop) {
+    modalRef.style.display = 'none';
+    backdrop.style.display = 'none';
+    document.body.style.overflow = 'visible';
+  }
+});
+
 document.addEventListener('keydown', event => {
   if (event.key === 'Escape') {
     modalRef.style.display = 'none';

@@ -1,13 +1,12 @@
 @use '../bais/variable' as *;
 
 .footer {
-  width: 100%;
 
   .container {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 120px;
+    height: 130px;
   }
 
   &__wrap {

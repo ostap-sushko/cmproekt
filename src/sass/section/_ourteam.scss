@@ -1,6 +1,9 @@
 @use '../bais/variable' as *;
 
 .ourteam {
+  .container {
+    height: 377px;
+  }
   &__title {
     color: $main-color;
     font-size: 20px;

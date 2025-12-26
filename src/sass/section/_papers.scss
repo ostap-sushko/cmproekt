@@ -1,4 +1,8 @@
 @use '../bais/variable' as *;
+
+.papers .container {
+  height: 260px;
+}
 .papers__newbox {
   margin-left: 200px;
 }

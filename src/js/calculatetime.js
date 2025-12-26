@@ -6,7 +6,6 @@ form.addEventListener('submit', event => {
   const time = fromMinutes(ms);
   renderTime(time);
 });
-console.log(form);
 
 function renderTime({ days, hours, minutes }) {
   return (resultTime.textContent = `${days} дн. ${hours}:${minutes}`)}

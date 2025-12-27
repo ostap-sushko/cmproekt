@@ -64,26 +64,26 @@
 
 .modal-header__input {
   width: 89px;
-  color: #7e7e7e;
+  color: $shadow-color;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   padding: 10px 90px 10px 10px;
   border-radius: 20px;
-  background: #d7d7d7;
+  background: $second-color;
 }
 
 .modal-header__submit {
   width: 120px;
-  color: #fff;
+  color: $background-color;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   padding: 10px 20px;
   border-radius: 20px;
-  background: #000;
+  background: $main-color;
   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.25);
 }
 

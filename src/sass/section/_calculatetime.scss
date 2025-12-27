@@ -10,7 +10,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 450px;
-  color: #000;
+  color: $main-color;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -31,14 +31,14 @@
 }
 
 .calculatetime__inputtime {
-  color: #7e7e7e;
+  color: $shadow-color;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   border-radius: 20px;
   padding: 10px;
-  background: #d7d7d7;
+  background: $second-color;
   box-shadow: 5px 4px #adadad;
 }
 
@@ -50,7 +50,7 @@
   height: 39px;
   padding: 10px;
   border-radius: 0 20px 20px 0;
-  background: #000;
+  background: $main-color;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,12 +81,12 @@
 
 .calculatetime__points {
   stroke-width: 1px;
-  stroke: #000;
+  stroke: $main-color;
   width: 100px;
 }
 
 .calculatetime__time {
-  color: #000;
+  color: $main-color;
   text-align: right;
   font-size: 16px;
   font-style: normal;

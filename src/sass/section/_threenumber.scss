@@ -12,8 +12,7 @@
   }
 
   &__logo {
-    color: #000;
-
+    color: $main-color;
     font-size: 20px;
     font-weight: 400;
     text-align: center;
@@ -40,7 +39,7 @@
   }
 
   &__num {
-    color: #000;
+    color: $main-color;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
@@ -51,7 +50,7 @@
   }
 
   &__text {
-    color: #000;
+    color: $main-color;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
@@ -59,7 +58,7 @@
   }
 
   &__input {
-   width: 117px;
+    width: 117px;
     padding: 10px 20px;
     gap: 10px;
     border-radius: 20px;

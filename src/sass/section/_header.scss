@@ -2,7 +2,7 @@
 
 .header {
   width: 100%;
-  background-color: #ffffff;
+  background-color: $background-color;
 }
 
 .header .container {
@@ -86,9 +86,9 @@
 .header__sliderbox {
   width: 20.5px;
   height: 20px;
-  background-color: #fff;
+  background-color: $background-color;
   border-radius: 11px;
-  border: 1px solid #000;
+  border: 1px solid $main-color;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,7 +105,7 @@
 .active-slider {
   .header__sliderbox {
     left: 20px;
-    background-color: #000;
+    background-color: $main-color;
   }
 }
 
@@ -128,5 +128,5 @@
 }
 
 .linktag-white {
-  color: #ffffff !important;
+  color: $background-color !important;
 }

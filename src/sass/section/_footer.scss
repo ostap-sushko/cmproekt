@@ -1,7 +1,6 @@
 @use '../bais/variable' as *;
 
 .footer {
-
   .container {
     display: flex;
     justify-content: center;
@@ -11,24 +10,13 @@
 
   &__wrap {
     display: flex;
-    // justify-content: space-between;
     align-items: center;
     gap: 250px;
   }
 
-  // &__img {
-  //     width: 165px;
-  //     height: 70px;
-  //     // background-image: url(../img/coding.png);
-  //     background-repeat: no-repeat;
-  //     background-size: contain;
-  // }
-
   .footer__logo {
     display: flex;
     gap: 9px;
-    width: 80px;
-    height: 50px;
   }
 
   .footer__textcoding {
@@ -52,7 +40,7 @@
   }
 
   &__link {
-    color: #000;
+    color: $main-color;
     font-size: 12px;
     font-weight: 400;
     line-height: 20px;
@@ -70,8 +58,8 @@
     align-items: flex-start;
     gap: 10px;
     border-radius: 20px;
-    background: #d7d7d7;
-    color: #7e7e7e;
+    background: $second-color;
+    color: $shadow-color;
     font-size: 12px;
     font-weight: 400;
     border: none;
@@ -84,16 +72,16 @@
     align-items: flex-start;
     gap: 10px;
     border-radius: 20px;
-    background: #000;
-    color: #fff;
+    background: $main-color;
+    color: $background-color;
     font-size: 12px;
     font-weight: 400;
     margin-left: 36px;
   }
 
   &__text {
-    color: #000;
-    font-size: 8px;
+    color: $main-color;
+    font-size: 8.5px;
     font-weight: 400;
     margin-top: 18px;
   }

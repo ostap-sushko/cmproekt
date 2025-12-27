@@ -10,18 +10,16 @@ spanEl.textContent = 0;
 
 let userChoice = null;
 
-// 1️⃣ вибір картинки
 imgRef.forEach((img, i) => {
   img.addEventListener('click', () => {
-    userChoice = i; // 0, 1, 2
+    userChoice = i;
   });
 });
 
-// 2️⃣ кнопка — показ результату
 buttonRef.addEventListener('click', () => {
   if (userChoice === null) return;
 
-  const num = Math.floor(Math.random() * 3); // 0–2
+  const num = Math.floor(Math.random() * 3);
 
   textRef.style.display = 'none';
   textEl.style.display = 'none';
@@ -31,11 +29,9 @@ buttonRef.addEventListener('click', () => {
     (num === 0 && userChoice === 1) ||
     (num === 1 && userChoice === 2)
   ) {
-    // виграш
     textRef.style.display = 'block';
     spanRef.textContent = Number(spanRef.textContent) + 1;
   } else if (num !== userChoice) {
-    // програш
     textEl.style.display = 'block';
     spanEl.textContent = Number(spanEl.textContent) + 1;
   }

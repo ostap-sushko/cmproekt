@@ -1,20 +1,15 @@
 @use '../bais/variable' as *;
 .football {
- 
-
   &__title {
-    color: #000;
-      font-size: 20px;
+    color: $main-color;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin-bottom: 36px;
-    // display: flex;
-    // justify-content: center;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-
   }
 
   &__box {
@@ -27,7 +22,7 @@
     outline: 3px solid $main-color;
     display: flex;
     justify-content: center;
-    margin: 0 auto; /* щоб по центру */
+    margin: 0 auto;
   }
 
   &__img {
@@ -40,14 +35,14 @@
   }
 
   &__line {
-  margin-top: 36px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 536px;
-  height: 1px;
-  stroke-width: 1px;
-  background-color: $main-color;
-  display: flex;
-  justify-content: center;
-}
+    margin-top: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 536px;
+    height: 1px;
+    stroke-width: 1px;
+    background-color: $main-color;
+    display: flex;
+    justify-content: center;
+  }
 }

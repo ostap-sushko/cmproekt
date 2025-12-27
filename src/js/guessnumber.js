@@ -4,7 +4,7 @@ const formRef = document.querySelector('.guessnumber__form');
 
 formRef.addEventListener('submit', e => {
   e.preventDefault();
-const num = Math.floor(Math.random() * (10 - 1) + 1); 
+  const num = Math.floor(Math.random() * (10 - 1) + 1);
   const value = Number(inputRef.value);
 
   if (value === num) {

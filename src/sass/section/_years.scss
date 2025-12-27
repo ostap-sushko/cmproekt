@@ -8,7 +8,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 450px;
-  color: #000;
+  color: $main-color;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -29,14 +29,14 @@
 }
 
 .years__inputyear {
-  color: #7e7e7e;
+  color: $shadow-color;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   padding: 10px 55px 10px 10px;
   border-radius: 20px;
-  background: #d7d7d7;
+  background: $second-color;
   box-shadow: 5px 4px #adadad;
 }
 
@@ -48,7 +48,7 @@
   height: 39px;
   padding: 10px;
   border-radius: 0 20px 20px 0;
-  background: #000;
+  background: $main-color;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -76,7 +76,7 @@
 }
 
 .yeartrue {
-  color: #039900;
+  color: $decor-color;
 }
 
 .yearfalse {

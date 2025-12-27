@@ -11,7 +11,7 @@ const linkRef = document.querySelectorAll('a');
 const pTextRef = document.querySelectorAll('p');
 const spanText = document.querySelectorAll('span');
 const svgRef = document.querySelector('path');
-const modalFooter = document.querySelector(".modal-footer")
+const modalFooter = document.querySelector('.modal-footer');
 
 contRef.addEventListener('click', () => {
   contRef.classList.toggle('active-slider');

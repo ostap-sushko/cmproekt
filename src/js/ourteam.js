@@ -1,7 +1,7 @@
-import ostap from './img/anonymous.png'
-import matvey from './img/matviy.jpg'
-import andrew from './img/andrew.jpg'
-import volodya from './img/volodya.jpg'
+import ostap from "../img/anonymous.png"
+import matvey from '../img/matviy.jpg'
+import andrew from '../img/andrew.jpg'
+import volodya from '../img/volodya.jpg'
 
 const nextRef = document.querySelector('.ourteam__btnnext');
 const backRef = document.querySelector('.ourteam__btnback');

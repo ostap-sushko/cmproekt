@@ -1,3 +1,8 @@
+import ostap from './img/anonymous.png'
+import matvey from './img/matviy.jpg'
+import andrew from './img/andrew.jpg'
+import volodya from './img/volodya.jpg'
+
 const nextRef = document.querySelector('.ourteam__btnnext');
 const backRef = document.querySelector('.ourteam__btnback');
 const imgRef = document.querySelector('.ourteam__img');
@@ -7,22 +12,22 @@ const stripesRef = document.querySelectorAll('.ourteam__stripe');
 
 const teamData = [
   {
-    img: './img/anonymous.png',
+    img: ostap,
     text: 'Остап Сушко',
     subtext: 'Тімлід',
   },
   {
-    img: './img/matviy.jpg',
+    img: matvey,
     text: 'Матвій Присяжнюк',
     subtext: 'Скраммайстер',
   },
   {
-    img: './img/andrew.jpg',
+    img: andrew,
     text: 'Андрій Лопушинський',
     subtext: 'Розробник сайту',
   },
   {
-    img: './img/volodya.jpg',
+    img: volodya,
     text: 'Володя Качур',
     subtext: 'Розробник сайту',
   },
